@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+
+html{
+
+	padding:1.5rem;
+
+	background:white;
+
+	display:flex;
+
+	justify-content:center;
+
+}
+
+body{
+
+	width:80%;
+
+	position:relative;
+
+	font-family:'Quicksand';
+
+}
+
+nav{
+
+	padding:1rem;
+
+	border-radius:5px;
+
+}
+
+
+.edited-container{
+
+	margin-top:1rem;
+
+}
+
+.sub-container{
+
+	display:flex;
+
+	justify-content:space-between;
+
+	width:100%;
+
+
+	margin-bottom:1rem;
+
+}
+
+.first-row,.second-row{
+
+	padding:1rem;
+
+	margin:1rem;
+
+	width:50%;
+
+
+}
+
+.first-row{
+
+	display:flex;
+
+	flex-direction:column;
+
+	justify-content:center;
+
+	align-items:center;
+
+
+	text-align:center;
+
+}
+
+.second-row img{
+
+	width:100%;
+
+
+}
+
+
+.text-responsive{
+	font-size:calc(100% + 1vw + 1vh);
+}
+
+
+footer{
+
+	margin-top:3rem;
+
+}
+
+
+.back-berserk{
+
+	background: url(https://cdn.wallpapersafari.com/27/9/fN5dZs.jpg);
+
+	height:70vh;
+
+	width:100%;
+
+	background-position:center center;
+
+	background-size:cover;
+
+	background-repeat:no-repeat;
+
+}
+
+.imgtd img{
+
+	width:100%;
+
+	height:100%;
+
+	transform:scale(0.75);
+
+}
+
+
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:5rem;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+}
+
+
+@media only screen and (min-width:1026px){
+
+	.bers-png{
+
+		position:absolute;
+
+		background-image:url('https://www.pngitem.com/pimgs/m/305-3052897_berserk-guts-png-transparent-png.png');
+
+		height:300px;
+
+		width:200px;
+
+		background-position:center center;
+
+		background-size:cover;
+
+		background-repeat:no-repeat;
+
+		bottom:0;
+
+		left:100%;
+
+	}
+
+	.bers2-png{
+
+		position:absolute;
+
+		background-image:url('https://www.pngitem.com/pimgs/m/305-3053144_berserk-guts-png-transparent-png.png');
+
+		height:300px;
+
+		width:200px;
+
+		background-position:center center;
+
+		background-size:cover;
+
+		background-repeat:no-repeat;
+
+		bottom:0;
+
+		right:100%;
+
+	}
+
+}
+
+.td-text{
+
+	position:relative;
+
+}
+
+.td-text-inner{
+
+	position:absolute;
+
+	top:50%;
+
+}
+
+@media (min-width: 1200px) {
+
+	.responsive-font-example {
+
+		font-size: 30px;
+
+	}
+
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+
+	.responsive-font-example {
+
+		font-size: 14px;
+
+	}
+
+}
+
